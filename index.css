@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #900;
+}
+li{
+    list-style-type: none;
+}
+body{
+    background: #13ccda;
+}
+.main{
+    width: 1200px;
+    margin: 10px auto;
+    padding: 0 10px 10px 10px;
+    background-image: url("images/siteBackground.jpg");
+    overflow: hidden;
+}
+
+/*左侧*/
+
+.left{
+    width: 350px;
+    font-size: 20px;
+    float: left;
+}
+
+/*logo*/
+
+.logo{
+    float: left;
+    background: url("images/logoBackground.png") no-repeat;
+    width: 206px;
+    height: 205px;
+    margin-left: 10px;
+}
+.logo h1{
+    font-size: 55px;
+    color: #883b12;
+    font-family: Hobo Std;
+    line-height: 55px;
+    padding: 40px 0 0 43px;
+}
+.logo h1 a{
+    color: #5a270b;
+    text-shadow: 2px 2px 1px #2b1205;/*设置蚊子阴影 参数：横向偏移 纵向偏移 模糊度 颜色 */
+}
+
+/*导航*/
+
+.aside{
+    width: 320px;
+    margin: 10px auto;
+}
+.aside ul{
+    margin: 10px 0;
+    line-height: 1.5em;
+    text-indent: 2em;
+    float: left;
+    font-size: 30px;
+    padding-right: 40px;
+    text-align: center;
+}
+.aside ul li{
+    font-family: Hobo Std;
+    padding: 5px 0;
+    text-shadow: 1px 1px 1px #2b1205;
+}
+.aside ul li a{
+    color: #d1bb00;
+}
+.aside ul li a:hover{
+    color: #883b12;
+}
+audio video{
+    border: 0;
+    outline: none;
+}
